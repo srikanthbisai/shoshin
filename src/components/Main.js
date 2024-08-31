@@ -2,16 +2,22 @@ function Main() {
   return (
     <div className="flex sm:m-auto md:w-full flex-col space-y-5 md:ml-10">
       <div className="header pt-6 pb-6 flex justify-between items-center sm:space-x-4  lg:pr-20 lg:w-full">
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-row justify-between space-x-3 items-center">
           <img src="menu.png" alt="" className=" hidden sm:block lg:hidden" />
 
-          <div className=" flex border rounded-lg hidden md:block md:w-[300px] lg:w-[400px] md:p-1 lg:p-4  items-center justify-between">
-            <p>Search</p>
-            <img src="search.png" alt="" width={30} className="" />
+          <div className="flex items-center justify-between border rounded-lg hidden md:flex md:w-[300px] lg:w-[400px] md:p-1 lg:p-4">
+            <p className="ml-2">Search</p>
+            <img
+              src="search.png"
+              alt="Search Icon"
+              width={30}
+              className="mr-2"
+            />
           </div>
+          <img src="search.png" alt="" className="hidden sm:block md:hidden" />
         </div>
 
-        <div className="flex md:pl-10 mr-20 space-x-6 items-center justify-around">
+        <div className="headerPicContainer flex  md:p-10 lg:p-0 space-x-6 items-center justify-between">
           <img src="ic_round-notifications.png" alt="" />
           <img src="bi_chat-left-dots-fill.png" alt="" />
           <img src="Mask Group.png" alt="" width={50} />
@@ -89,7 +95,7 @@ function Main() {
               <button className="text-sm border border-gray-200 p-2 flex justify-center items-center rounded-lg">
                 Today, 13 Sept 2021
                 <img src="Frame 10.png" alt="" />
-               </button>
+              </button>
             </div>
 
             <div className="border border-gray-200 p-1 rounded-lg mt-5 justify-between flex bg-[#FAFAFA]  w-[95%] mx-auto">
@@ -98,8 +104,8 @@ function Main() {
                 <h1 className="text-sm font-thin">5 min ago</h1>
               </div>
               <div className="imgDiv flex justify-center items-center space-x-2 mr-4">
-              <img src="pin-light.png" alt="" />
-              <img src="3dots.png" alt="" />
+                <img src="pin-light.png" alt="" />
+                <img src="3dots.png" alt="" />
               </div>
             </div>
 
@@ -123,8 +129,8 @@ function Main() {
                 <h1 className="text-sm font-thin">Yesterday, 09:15 AM</h1>
               </div>
               <div className="imgDiv flex justify-center items-center space-x-2 mr-4">
-              <img src="pin-dark.png" alt="" />
-              <img src="3dots.png" alt="" />
+                <img src="pin-dark.png" alt="" />
+                <img src="3dots.png" alt="" />
               </div>
             </div>
 
@@ -158,13 +164,13 @@ function Main() {
 
           <div className="bottom sm:mt-5 lg:mt-6 border sm:w-full border-gray-200 rounded-2xl shadow-lg relative overflow-hidden">
             <div className="top flex justify-between items-center sm:p-5 lg:p-3">
-              <p className="font-bold text-3xl text-[#161E54] p-2 mt-4">
+              <p className="font-bold sm:text-2xl md:text-3xl text-[#161E54] p-2 mt-4">
                 Upcoming Schedule
               </p>
               <button className="text-sm border border-gray-200 p-2 flex justify-center items-center">
                 Today, 13 Sept 2021
                 <img src="Frame 10.png" alt="" />
-               </button>
+              </button>
             </div>
 
             <p className="font-thin p-2">Priority</p>
@@ -202,7 +208,10 @@ function Main() {
             </div>
 
             <div className="border border-t-gray-200 border-b-0 border-l-0 border-r-0 flex justify-center w-full">
-              <p className="text-red-500 p-4 font-bold"> Create a new Schedule</p>
+              <p className="text-red-500 p-4 font-bold">
+                {" "}
+                Create a new Schedule
+              </p>
             </div>
           </div>
         </div>
