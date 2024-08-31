@@ -1,12 +1,12 @@
 function Main() {
   return (
-    <div className="flex sm:m-auto md:w-full flex-col space-y-5 md:ml-10">
-      <div className="header pt-6 pb-6 flex justify-between items-center sm:space-x-4  lg:pr-20 lg:w-full">
+    <div className="flex sm:w-[90%] sm:mx-auto md:w-full flex-col space-y-5 md:ml-10">
+
+      <div className="header pt-2 pb-2 mt-4 flex justify-between items-center sm:space-x-4 lg:pr-20 lg:w-full">
         <div className="flex flex-row justify-between space-x-3 items-center">
           <img src="menu.png" alt="" className=" hidden sm:block lg:hidden" />
-
-          <div className="flex items-center justify-between border rounded-lg hidden md:flex md:w-[300px] lg:w-[400px] md:p-1 lg:p-4">
-            <p className="ml-2">Search</p>
+          <div className="flex items-center justify-between border bg-[#FAFAFA] rounded-lg hidden md:flex md:w-[300px] lg:w-[400px] md:p-1 lg:p-4">
+            <p className="ml-2 font-extralight text-lg tracking-wider">Search</p>
             <img
               src="search.png"
               alt="Search Icon"
@@ -27,6 +27,7 @@ function Main() {
           <img src="Frame 10.png" alt="" />
         </div>
       </div>
+
       {/* first container */}
       <div className="containe flex sm:flex-col lg:flex-row">
         <div className="xl:w-[60%] xl:m-x-auto xl:m-y-auto flex flex-col sm:px-0 md:px-6">
@@ -69,8 +70,8 @@ function Main() {
               <div className="textContainer text-sm ml-3">
                 <p className="text-2xl font-bold">Total Employees</p>
                 <p className="text-5xl font-bold font-sans mt-5">216</p>
-                <p className="font-thin mt-8">120 men</p>
-                <p className="font-thin mt-2">96 women</p>
+                <p className="font-light mt-8">120 men</p>
+                <p className="font-light mt-2">96 women</p>
               </div>
               <div className="imgContainer flex justify-center items-center mr-10">
                 <img src="Frame 52.png" alt="" width={150} />
@@ -80,8 +81,8 @@ function Main() {
               <div className="textContainer text-sm  ml-3">
                 <p className="text-2xl font-bold">Talent Request</p>
                 <p className="text-5xl font-bold font-sans mt-5">16</p>
-                <p className="font-thin mt-8">6 men</p>
-                <p className="font-thin mt-2">10 women</p>
+                <p className="font-light mt-8">6 men</p>
+                <p className="font-light  mt-2">10 women</p>
               </div>
               <div className="imgContainer flex justify-center items-center mr-10">
                 <img src="Frame 53.png" alt="" width={150} />
@@ -89,46 +90,46 @@ function Main() {
             </div>
           </div>
 
-          <div className="rounded-lg border border-gray-200 shadow-lg  flex flex-col mt-6 space-y-6">
+          <div className="rounded-lg border border-gray-200 shadow-lg  flex flex-col mt-6 space-y-5">
             <div className="top flex flex-row justify-between px-3 pt-3">
-              <h1 className="text-3xl font-bold p-3 ">Announcement</h1>
-              <button className="text-sm border border-gray-200 p-2 flex justify-center items-center rounded-lg">
+              <h1 className="text-3xl font-bold p-3 text-[#161E54]">Announcement</h1>
+              <button className="text-sm border border-gray-200 sm:p-2 lg:p-4 flex justify-center items-center rounded-lg font-thin">
                 Today, 13 Sept 2021
                 <img src="Frame 10.png" alt="" />
               </button>
             </div>
 
-            <div className="border border-gray-200 p-1 rounded-lg mt-5 justify-between flex bg-[#FAFAFA]  w-[95%] mx-auto">
+            <div className="border border-gray-200 p-2 rounded-lg justify-between flex bg-[#FAFAFA]  w-[95%] mx-auto">
               <div className="textDiv">
-                <h1>Outing Schedule for Every department</h1>
-                <h1 className="text-sm font-thin">5 min ago</h1>
+                <h1 className="text-lg font-medium">Outing Schedule for Every department</h1>
+                <h1 className="text-sm font-light">5 min ago</h1>
               </div>
-              <div className="imgDiv flex justify-center items-center space-x-2 mr-4">
+              <div className="imgDiv flex justify-center items-center space-x-6 mr-6">
                 <img src="pin-light.png" alt="" />
                 <img src="3dots.png" alt="" />
               </div>
             </div>
 
-            <div className="border border-gray-200 p-1 rounded-lg mt-5 justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
+            <div className="border border-gray-200 p-2 rounded-lg  justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
               <div className="textDiv">
-                <h1>Meeting HR Department</h1>
-                <h1 className="text-sm">5 min ago</h1>
+                <h1 className="text-lg font-medium">Meeting HR Department</h1>
+                <h1 className="text-sm font-light">Yesterday, 12:30 PM</h1>
               </div>
-              <div className="imgDiv flex justify-center items-center space-x-2 mr-4">
+              <div className="imgDiv flex justify-center items-center space-x-6 mr-6">
                 <img src="pin-dark.png" alt="" />
                 <img src="3dots.png" alt="" />
               </div>
             </div>
 
-            <div className="border border-gray-200 p-2 rounded-lg mt-5 justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
+            <div className="border border-gray-200 p-2 rounded-lg justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
               <div className="textDiv">
-                <h1>
+                <h1 className="text-lg font-medium">
                   IT Department need two more talents for UX/UI <br></br>
                   Designer Position
                 </h1>
-                <h1 className="text-sm font-thin">Yesterday, 09:15 AM</h1>
+                <h1 className="text-sm font-light">Yesterday, 09:15 AM</h1>
               </div>
-              <div className="imgDiv flex justify-center items-center space-x-2 mr-4">
+              <div className="imgDiv flex justify-center items-center space-x-6 mr-6">
                 <img src="pin-dark.png" alt="" />
                 <img src="3dots.png" alt="" />
               </div>
@@ -141,7 +142,7 @@ function Main() {
         </div>
 
         {/*second div */}
-        <div className="lastContainer mb-5 md:p-5 lg:p-0 flex sm:flex-col md:flex-row lg:flex-col md:space-x-2 md:mr-10 sm:w-full xl:w-[35%] mr-auto mt-8 lg:space-x-3">
+        <div className="lastContainer mb-5 sm:mt-1 md:mt-1 lg:mt-8 md:p-5 lg:p-0 flex sm:flex-col md:flex-row lg:flex-col md:space-x-2 md:mr-10 sm:w-full xl:w-[35%] mr-auto mt-8 lg:space-x-3">
           <div className="blueContainer bg-[#161E54] text-white rounded-2xl sm:mt-5 lg:mt-10 lg:ml-3 xl:mt-8 p-3 shadow-md">
             <h1 className="text-white bg-[#1B204A] rounded-2xl text-xl p-4">
               Recently Activity
@@ -155,40 +156,40 @@ function Main() {
               sure everything is right.
             </p>
             <div className="bottom flex sm:py-3 sm:space-y-3 md:py-0 md:space-y-0 sm:mt-3 md:mt-10 sm:flex-col lg:flex-row lg:justify-between lg:items-center">
-              <p className="p-2 ">Today you made 12 activities</p>
+              <p className="p-2 text-lg">Today you made 12 activities</p>
               <button className="bg-red-500 rounded-md sm:p-2 lg:p-3 sm:w-1/3 md:w-2/3 lg:w-1/3  lg:mr-8">
                 See all activity
               </button>
             </div>
           </div>
 
-          <div className="bottom sm:mt-5 lg:mt-6 border sm:w-full border-gray-200 rounded-2xl shadow-lg relative overflow-hidden">
+          <div className="bottom sm:mt-5 lg:mt-10 border sm:w-full border-gray-200 rounded-2xl shadow-lg relative overflow-hidden">
             <div className="top flex justify-between items-center sm:p-5 lg:p-3">
               <p className="font-bold sm:text-2xl md:text-3xl text-[#161E54] p-2 mt-4">
                 Upcoming Schedule
               </p>
-              <button className="text-sm border border-gray-200 p-2 flex justify-center items-center">
+              <button className="text-sm border border-gray-200 sm:p-2 lg:p-4 flex justify-center items-center rounded-lg font-thin">
                 Today, 13 Sept 2021
                 <img src="Frame 10.png" alt="" />
               </button>
             </div>
 
-            <p className="font-thin p-2">Priority</p>
+            <p className="font-medium p-2">Priority</p>
             <div className="border border-gray-200 p-2 rounded-lg mt-2 justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
               <div className="textDiv">
-                <h1 className="">Review Candidate Applications</h1>
-                <h1 className="text-sm">5 min ago</h1>
+                <h1 className="text-lg font-medium">Review Candidate Applications</h1>
+                <h1 className="text-sm font-light">Today - 11:30 AM</h1>
               </div>
               <div className="imgDiv flex justify-center items-center p-2">
                 <img src="3dots.png" alt="" />
               </div>
             </div>
 
-            <p className="mt-4 font-thin p-2">Other</p>
-            <div className="border border-gray-200 p-2 rounded-lg mt-2 justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
+            <p className="mt-2 font-medium p-2">Other</p>
+            <div className="border border-gray-200 p-2 rounded-lg justify-between flex bg-[#FAFAFA] w-[95%] mx-auto">
               <div className="textDiv">
-                <h1 className="">Interview with Candidates</h1>
-                <h1 className="text-sm ">5 min ago</h1>
+                <h1 className="text-lg font-medium">Interview with Candidates</h1>
+                <h1 className="text-sm font-light">Today - 10:30 AM</h1>
               </div>
               <div className="imgDiv flex justify-center items-center p-2">
                 <img src="3dots.png" alt="" />
@@ -197,10 +198,10 @@ function Main() {
 
             <div className="flex md:hidden lg:flex border border-gray-200 p-3 rounded-lg mt-3 justify-between bg-[#FAFAFA] w-[95%] mx-auto">
               <div className="textDiv">
-                <p>
+                <p className="text-lg font-medium">
                   Short Meeting with Product Designer <br /> from IT Department
                 </p>
-                <h1 className="text-sm font-thin">5 min ago</h1>
+                <h1 className="text-sm font-light">Today - 09:15 AM</h1>
               </div>
               <div className="imgDiv flex justify-center items-center gap-2">
                 <img src="3dots.png" alt="" />

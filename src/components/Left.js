@@ -2,7 +2,7 @@ function Left() {
   return (
     <div className="flex sm:hidden md:block md:w-[15%] md:m-x-auto xl:w-[15%] bg-[#FAFAFA] min-h-screen">
       <div>
-        <div className="flex flex-row space-x-3 justify-center mt-10 items-center">
+        <div className="flex flex-row space-x-3 justify-center  md:mt-20 lg:mt-10 items-center">
           <img src="icon.png" alt=""></img>
           <p className="text-[#0A337A] font-bold text-3xl hidden xl:block">
             Vasitum
