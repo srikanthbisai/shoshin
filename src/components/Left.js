@@ -21,7 +21,7 @@ function Left() {
               </div>
 
               <div>
-                <h1 className="hidden xl:block text-lg">Dashboard</h1>
+                <h1 className="hidden xl:block text-lg text-red-500">Dashboard</h1>
               </div>
             </div>
 

@@ -31,7 +31,7 @@ function Main() {
       {/* first container */}
       <div className="containe flex sm:flex-col lg:flex-row">
         <div className="xl:w-[60%] xl:m-x-auto xl:m-y-auto flex flex-col sm:px-0 md:px-6">
-          <p className="text-4xl text-[#161E54] font-bold font-serif">
+          <p className="text-4xl text-[#161E54] font-bold font-serif ">
             Dashboard
           </p>
           <div className="smallcontainer flex flex-row sm:space-y-5 md:space-y-0 md:space-x-4 sm:flex-col  md:flex-row mt-6 justify-center items-center">
