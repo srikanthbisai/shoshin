@@ -1,4 +1,4 @@
-function Main() {
+ function Main() {
   return (
     <div className="flex sm:w-[90%] sm:mx-auto md:w-full flex-col space-y-5 md:ml-10">
 
@@ -68,8 +68,8 @@ function Main() {
           <div className="smallcontainer2 sm:space-y-5 md:space-y-0 md:space-x-3 flex sm:flex-col max-sm:justify-center max-sm:items-center md:flex-row mt-6 ">
             <div className="lg:w-1/2 flex flex-row border border-red-200 rounded-md shadow-lg p-4 justify-between">
               <div className="textContainer text-sm ml-3">
-                <p className="text-2xl font-bold">Total Employees</p>
-                <p className="text-5xl font-bold font-sans mt-5">216</p>
+                <p className="text-2xl font-bold text-[#161E54]">Total Employees</p>
+                <p className="text-5xl font-bold font-sans mt-5 text-[#161E54]">216</p>
                 <p className="font-light mt-8">120 men</p>
                 <p className="font-light mt-2">96 women</p>
               </div>
@@ -79,8 +79,8 @@ function Main() {
             </div>
             <div className="lg:w-1/2 flex flex-row border border-red-200 rounded-md shadow-lg p-4 justify-between">
               <div className="textContainer text-sm  ml-3">
-                <p className="text-2xl font-bold">Talent Request</p>
-                <p className="text-5xl font-bold font-sans mt-5">16</p>
+                <p className="text-2xl font-bold text-[#161E54]">Talent Request</p>
+                <p className="text-5xl font-bold font-sans mt-5 text-[#161E54]">16</p>
                 <p className="font-light mt-8">6 men</p>
                 <p className="font-light  mt-2">10 women</p>
               </div>
