@@ -136,7 +136,7 @@
             </div>
 
             <div className="border border-t-gray-200 border-b-0 border-l-0 border-r-0  flex justify-center w-full">
-              <p className="text-red-500 p-4 font-bold"> See All Anouncement</p>
+              <p className="text-red-500 p-4 font-bold text-lg"> See All Anouncements</p>
             </div>
           </div>
         </div>
@@ -209,9 +209,9 @@
             </div>
 
             <div className="border border-t-gray-200 border-b-0 border-l-0 border-r-0 flex justify-center w-full">
-              <p className="text-red-500 p-4 font-bold">
-                {" "}
-                Create a new Schedule
+              <p className="text-red-500 p-4 font-bold text-lg">
+                
+                Create a New Schedule
               </p>
             </div>
           </div>
