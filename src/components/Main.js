@@ -157,7 +157,7 @@
             </p>
             <div className="bottom flex sm:py-3 sm:space-y-3 md:py-0 md:space-y-0 sm:mt-3 md:mt-10 sm:flex-col lg:flex-row lg:justify-between lg:items-center">
               <p className="p-2 text-lg">Today you made 12 activities</p>
-              <button className="bg-red-500 rounded-md sm:p-2 lg:p-4 sm:w-1/3 md:w-2/3 lg:w-1/3  lg:mr-8">
+              <button className="bg-red-500 rounded-md sm:p-2 lg:p-3 sm:w-1/3 md:w-2/3 lg:w-1/3  lg:mr-8">
                 See all activity
               </button>
             </div>
